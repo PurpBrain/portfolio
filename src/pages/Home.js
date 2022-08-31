@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../components/header/Header-home'
 
 const Home = () => {
     return (
-        <div class="flex justify-center">
-            <p>Salut ! opo</p>
+        <div>
+            <Header/>
         </div>
     )
 }
