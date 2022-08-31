@@ -1,5 +1,6 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import Test from './pages/Test';
 import MainLayout from './layouts/MainLayout';
 
 const MainRoutes = () => {
@@ -8,6 +9,7 @@ const MainRoutes = () => {
     <MainLayout>
       <Routes>
         <Route path="/" index exact element={<Home />}/>
+        <Route path="/test" exact element={<Test />}/>
       </Routes>
     </MainLayout>
   )
