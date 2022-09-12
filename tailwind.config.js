@@ -12,11 +12,14 @@ module.exports = {
     colors: {
       'primary': '#F9F4EF',
       'secondary': '#EADDCF',
+      'tertiary': "#F25042",
       'brown': '#716040',
       'black': "#020826",
     },
     fontFamily: {
-      Helvetica: ['Helvetica',"sans-serif"]
+      Helvetica: ['Helvetica',"sans-serif"],
+      Raleway: ['Raleway',"sans-serif"],
+      Calibre: ['Calibre',"sans-serif"],
     },
     extend: {
       padding: {
