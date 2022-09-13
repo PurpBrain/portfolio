@@ -5,9 +5,9 @@ import PresEnd from '../components/presentation/Pres-end';
 import Projet from '../components/projet/Projet';
 
 
-const Home = () => {
+const Home = () => {    
     return (
-        <div class="bg-primary">
+        <div class="bg-secondary">
             <Header/>
             <Presentation/>
             <PresEnd/>

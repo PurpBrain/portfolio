@@ -2,52 +2,70 @@ import React from "react";
 
 const Projet = () => {
     return (
-        <div class="px-[250px] py-[50px] bg-secondary flex-col justify-center">
-            <div class="pt-[100px] flex justify-center text-5xl text-brown font-Brown pb-[80px]">Mes projets</div>
-            <div class="grid gap-y-32">
-                <div class="flex flex-rows">
-                    <div>
-                        <p class="text-xs text-tertiary font-Raleway font-medium">2022 - Projet de Formation</p>
-                        <p class="text-xl text-black font-Raleway font-semibold">Jdm.boutique</p>
-                        <p class="text-base text-brown font-Raleway font-regular bg-primary px-[13px] py-[28px] rounded-lg">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>
-                            Mauris porttitor mi at sapien tincidunt condimentum sed vel ante.<br></br>
-                            Sed venenatis mi at erat fringilla, vel sollicitudin libero fermentum.<br></br>
-                            Vivamus rutrum venenatis ultricies.
-                        </p>
+        <div class="px-[250px] py-[50px] bg-primary flex-col justify-center">
+            <div class="pt-[100px] flex justify-center text-5xl text-headline font-Brown pb-[80px]">Mes projets</div>
+            <div class="grid gap-y-32 justify-center">
+                <div class="grid grid-cols-2">
+                    <div class="grid gap-y-3 content-center mr-[-100px] z-10">
+                        <div class="text-xs text-tertiary font-Raleway font-medium">
+                            <span class="pr-[5px]">2022</span>
+                            <span class="pr-[5px]">-</span>
+                            <span>Projet de Formation</span>
+                        </div>
+                        <a class="text-xl text-headline font-Raleway font-semibold" href="https://jdm.boutique/">Jdm.boutique</a>
+                        <div class="text-base text-text font-Raleway font-regular bg-secondary px-[13px] py-[28px] rounded-lg drop-shadow-xs">
+                            <p>
+                                Projet réalisé durant ma formation de développeur Web & Web Mobile.
+                                On peut y publier des annonces sur automobiles comme un blog, se créer un compte,
+                                échanger avec les utilisateurs sur les voitures etc.
+                            </p>
+                        </div>
+                        <div class="text-tertiary">
+                            <a class="pr-[20px]" href="https://nodejs.org/en/">NodeJS</a>
+                            <a class="pr-[20px]" href="https://sass-lang.com/">SCSS</a>
+                            <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">JavaScript</a>
+                        </div>
+                        <div class="">
+                            <a class="text-icon" href="https://github.com/PurpBrain/JdmBoutique">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
                     </div>
-                    <div>
+                    <div class="drop-shadow-xs">
                         <img class="sameImg" src={require(`../../assets/image/Gta-5.jpg`)} alt="Projet 1" />
                     </div>
                 </div>
-                <div class="flex flex-rows justify-center">
-                    <div>
-                        <img class="sameImg" src={require(`../../assets/image/Lune.jpg`)} alt="Projet 1" />
+                <div class="grid grid-cols-2">
+                    <div class="drop-shadow-xs">
+                        <img class="sameImg" src={require(`../../assets/image/Gta-5.jpg`)} alt="Projet 1" />
                     </div>
-                    <div>
-                        <p>2022 - Projet de Formation</p>
-                        <p>Jdm.boutique</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>
-                            Mauris porttitor mi at sapien tincidunt condimentum sed vel ante.<br></br>
-                            Sed venenatis mi at erat fringilla, vel sollicitudin libero fermentum.<br></br>
-                            Vivamus rutrum venenatis ultricies.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex flex-rows justify-center">
-                    <div>
-                        <p>2022 - Projet de Formation</p>
-                        <p>Jdm.boutique</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>
-                            Mauris porttitor mi at sapien tincidunt condimentum sed vel ante.<br></br>
-                            Sed venenatis mi at erat fringilla, vel sollicitudin libero fermentum.<br></br>
-                            Vivamus rutrum venenatis ultricies.
-                        </p>
-                    </div>
-                    <div>
-                        <img class="sameImg" src={require(`../../assets/image/Mazda-RX-7.jpg`)} alt="Projet 1" />
+                    <div class="grid gap-y-3 content-center ml-[-100px] z-10 justify-items-end">
+                        <div class="text-xs text-tertiary font-Raleway font-medium ">
+                            <span class="pr-[5px]">2022</span>
+                            <span class="pr-[5px]">-</span>
+                            <span>Projet de Formation</span>
+                        </div>
+                        <a class="text-xl text-headline font-Raleway font-semibold" href="https://jdm.boutique/">Jdm.boutique</a>
+                        <div class="text-base text-text font-Raleway font-regular bg-secondary px-[13px] py-[28px] rounded-lg drop-shadow-xs text-right">
+                            <p>
+                                Projet réalisé durant ma formation de développeur Web & Web Mobile.
+                                On peut y publier des annonces sur automobiles comme un blog, se créer un compte,
+                                échanger avec les utilisateurs sur les voitures etc.
+                                Projet réalisé durant ma formation de développeur Web & Web Mobile.
+                                On peut y publier des annonces sur automobiles comme un blog, se créer un compte,
+                                échanger avec les utilisateurs sur les voitures etc.
+                            </p>
+                        </div>
+                        <div class="text-tertiary">
+                            <a class="pr-[20px]" href="https://nodejs.org/en/">NodeJS</a>
+                            <a class="pr-[20px]" href="https://sass-lang.com/">SCSS</a>
+                            <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">JavaScript</a>
+                        </div>
+                        <div class="">
+                            <a class="text-icon" href="https://github.com/PurpBrain/JdmBoutique">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

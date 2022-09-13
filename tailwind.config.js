@@ -10,11 +10,13 @@ module.exports = {
       '5xl': '3rem',
     },
     colors: {
-      'primary': '#F9F4EF',
-      'secondary': '#EADDCF',
-      'tertiary': "#F25042",
-      'brown': '#716040',
+      'primary': '#16161A',
+      'secondary': '#242629',
+      'tertiary': "#7F5AF0",
+      'text': '#94A1B2',
       'black': "#020826",
+      'headline':"#FFFFFE",
+      'icon':"#FFFFFE",
     },
     fontFamily: {
       Helvetica: ['Helvetica',"sans-serif"],
@@ -22,6 +24,9 @@ module.exports = {
       Calibre: ['Calibre',"sans-serif"],
     },
     extend: {
+      dropShadow: {
+        'xs': '0px 4px 4px rgba(0, 0, 0, 0.25)',
+      },
       padding: {
         
       },

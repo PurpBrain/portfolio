@@ -2,7 +2,7 @@ import React from "react";
 
 const PresEnd = () => {
     return(
-        <div class="section_end bg-primary"></div>
+        <div class="section_end bg-secondary"></div>
     );
 };
 

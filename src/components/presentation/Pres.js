@@ -3,9 +3,9 @@ import React from "react";
 const Presentation = () => {
     return (
         <div class="px-[250px] pt-[50px] pb-[110px]">
-            <div class="flex justify-center text-5xl text-brown font-Brown pb-[80px]">Qui suis-je ?</div>
+            <div class="flex justify-center text-5xl text-headline font-Brown pb-[80px]">Qui suis-je ?</div>
             <div class="flex justify-between">
-                <div class="text-xl text-brown font-Helvetica">
+                <div class="text-xl text-text font-Helvetica">
                     <p>
                         Bonjour! je m'appelle Léo Doray, j'ai 18ans, je suis Développeur Web ainsi<br></br> 
                         que Web Designer. Je m'apprête à commencer une formation Concepteur <br></br> 
