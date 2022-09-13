@@ -1,9 +1,9 @@
 import React from "react";
 
-const PresEnd = () => {
+const Section_end = () => {
     return(
         <div class="section_end bg-secondary"></div>
     );
 };
 
-export default PresEnd;
+export default Section_end;

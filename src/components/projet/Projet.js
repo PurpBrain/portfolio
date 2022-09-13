@@ -2,7 +2,7 @@ import React from "react";
 
 const Projet = () => {
     return (
-        <div class="px-[250px] py-[50px] bg-primary flex-col justify-center">
+        <div class="px-[250px] pt-[50px] pb-[200px] bg-primary flex-col justify-center">
             <div class="pt-[100px] flex justify-center text-5xl text-headline font-Brown pb-[80px]">Mes projets</div>
             <div class="grid gap-y-32 justify-center">
                 <div class="grid grid-cols-2">
@@ -37,7 +37,7 @@ const Projet = () => {
                 </div>
                 <div class="grid grid-cols-2">
                     <div class="drop-shadow-xs">
-                        <img class="sameImg" src={require(`../../assets/image/Gta-5.jpg`)} alt="Projet 1" />
+                        <img class="sameImg" src={require(`../../assets/image/Lune.jpg`)} alt="Projet 1" />
                     </div>
                     <div class="grid gap-y-3 content-center ml-[-100px] z-10 justify-items-end">
                         <div class="text-xs text-tertiary font-Raleway font-medium ">
