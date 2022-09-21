@@ -13,10 +13,13 @@ const Tab = ({ children, active = 0 }) => {
 
             const { props: { tab, children } } = el;
             data.push({ tab, children })
+            
         })
 
         setTabsData(data);
     }, [children])
+
+    
 
     return (
         <div class="px-[250px] py-[50px]">
