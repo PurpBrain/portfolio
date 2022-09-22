@@ -8,7 +8,7 @@ const MainRoutes = () => {
   return (
     <MainLayout>
       <Routes>
-        <Route path="/" index exact element={<Home />}/>
+        <Route path="/e" index exact element={<Home />}/>
         <Route path="/test" exact element={<Test />}/>
       </Routes>
     </MainLayout>
@@ -19,7 +19,7 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path='/*' exact element={<MainRoutes/>}/>
+        <Route path='/' exact element={<Home/>}/>
       </Routes>
     </HashRouter>
   );

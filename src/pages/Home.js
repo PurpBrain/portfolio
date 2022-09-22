@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from '../components/header/Header-home';
 import Presentation from '../components/presentation/Pres';
 import SectionEnd from '../components/section-end/Section-end';
@@ -12,35 +11,35 @@ const tabContent =
         "skills" :
         [
             {
-                content: "HTML",
+                name: "HTML",
                 logo:"sss"
             },
             {
-                content: "CSS",
+                name: "CSS",
                 logo:"sss"
             },
             {
-                content: "JavaScript",
+                name: "JavaScript",
                 logo:"sss"
             },
             {
-                content: "React",
+                name: "React",
                 logo:"sss"
             },
             {
-                content: "Git", 
+                name: "Git", 
                 logo:"sss"
             },
             {
-                content: "Bootstrap",
+                name: "Bootstrap",
                 logo:"sss"
             },
             {
-                content: "Handlebars",
+                name: "Handlebars",
                 logo:"sss"
             },
             {
-                content: "Sass",
+                name: "Sass",
                 logo:"sss"
             },
         ]
@@ -50,19 +49,24 @@ const tabContent =
         "skills" :
         [
             {
-                "content": "Node JS",
+                name: "Node JS",
+                logo: 't'
             },
             {
-                "content": "ExpressJS",
+                name: "ExpressJS",
+                logo: 't'
             },
             {
-                "content": "MySQL",
+                name: "MySQL",
+                logo: 't'
             },
             {
-                "content": "JavaScript",
+                name: "JavaScript",
+                logo: 't'
             },
             {
-                "content": "Git",
+                name: "Git",
+                logo: 't'
             },
         ]
     }
@@ -71,19 +75,27 @@ const tabContent =
 
 const Home = () => {
     return (
-        <div class="bg-secondary">
+
+        <div className="bg-secondary">
             <Header />
             <Presentation />
             <SectionEnd />
             <Projet />
             <SectionEnd />
-            <Tab>
-                {tabContent.map((tab, idx) => (
-                    <Tab.TabPane key={`Tab-${idx}`} tab={tab.title}>
-                        {tab.skills.content}
-                    </Tab.TabPane>
-                ))}
+            <Tab key={Math.random()+Date.now()}>
+                {tabContent.map((el,i)=>{
+                    return (
+                        <Tab.TabPane key={`Tab-${i}`} tab={el.title}>
+                            {el.skills.map((el,i)=>{
+                                return(
+                                    <p key={el.name+Date.now()}>{el.name}</p>
+                                )
+                            })}
+                        </Tab.TabPane>
+                    )
+                })}
             </Tab>
+
         </div>
     )
 }

@@ -1,8 +1,8 @@
-import React from "react";
+// import React from "react";
 
 const Section_end = () => {
     return(
-        <div class="section_end bg-secondary"></div>
+        <div className="section_end bg-secondary"></div>
     );
 };
 

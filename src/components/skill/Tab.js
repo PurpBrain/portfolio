@@ -22,12 +22,12 @@ const Tab = ({ children, active = 0 }) => {
     
 
     return (
-        <div class="px-[250px] py-[50px]">
-            <div class="flex justify-center text-5xl text-headline font-Brown pt-[100px]">Maîtrise des langages</div>
+        <div className="px-[250px] py-[50px]">
+            <div className="flex justify-center text-5xl text-headline font-Brown pt-[100px]">Maîtrise des langages</div>
             <div>
                 <ul>
                     {tabsData.map(({ tab }, idx) => (
-                        <li>
+                        <li key={Math.random()+Date.now()}>
                             <button onClick={() => setActiveTab(idx)} className={`${idx === activeTab ? "active" : ""}`}>
                                 {tab}
                             </button>
