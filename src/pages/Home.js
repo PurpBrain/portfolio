@@ -12,35 +12,35 @@ const tabContent =
         [
             {
                 name: "HTML",
-                logo:"sss"
+                logo:"HTML.png"
             },
             {
                 name: "CSS",
-                logo:"sss"
+                logo:"css.png"
             },
             {
                 name: "JavaScript",
-                logo:"sss"
+                logo:"js.png"
             },
             {
                 name: "React",
-                logo:"sss"
+                logo:"react.png"
             },
             {
                 name: "Git", 
-                logo:"sss"
+                logo:"git.png"
             },
             {
                 name: "Bootstrap",
-                logo:"sss"
+                logo:"bootstrap.png"
             },
             {
                 name: "Handlebars",
-                logo:"sss"
+                logo:"handlebars.png"
             },
             {
                 name: "Sass",
-                logo:"sss"
+                logo:"sass.png"
             },
         ]
     },
@@ -50,23 +50,37 @@ const tabContent =
         [
             {
                 name: "Node JS",
-                logo: 't'
+                logo: 'Node-JS.png'
             },
             {
                 name: "ExpressJS",
-                logo: 't'
+                logo: 'express.png'
             },
             {
                 name: "MySQL",
-                logo: 't'
+                logo: 'mysql.png'
             },
             {
                 name: "JavaScript",
-                logo: 't'
+                logo: 'js.png'
             },
             {
                 name: "Git",
-                logo: 't'
+                logo: 'git.png'
+            },
+        ]
+    },
+    {
+        "title" : "Design",
+        "skills" :
+        [
+            {
+                name : "PhotoShop",
+                logo : "photoshop.png"
+            },
+            {
+                name : "Figma",
+                logo : "figma.png"
             },
         ]
     }
@@ -88,7 +102,8 @@ const Home = () => {
                         <Tab.TabPane key={`Tab-${i}`} tab={el.title}>
                             {el.skills.map((el,i)=>{
                                 return(
-                                    <p key={el.name+Date.now()}>{el.name}</p>
+                                    <p key={el.name+Date.now()}>{el.name}</p>,
+                                    <img src={require(`../assets/image/skills/` + el.logo)} alt={el.logo}/>
                                 )
                             })}
                         </Tab.TabPane>

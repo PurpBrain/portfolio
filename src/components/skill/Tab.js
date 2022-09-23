@@ -25,16 +25,16 @@ const Tab = ({ children, active = 0 }) => {
         <div className="px-[250px] py-[50px]">
             <div className="flex justify-center text-5xl text-headline font-Brown pt-[100px]">Maîtrise des langages</div>
             <div>
-                <ul>
+                <ul className='flex flex-row'>
                     {tabsData.map(({ tab }, idx) => (
-                        <li key={Math.random()+Date.now()}>
-                            <button onClick={() => setActiveTab(idx)} className={`${idx === activeTab ? "active" : ""}`}>
+                        <li key={Math.random()+Date.now()} className="text-headline font-Raleway text-base">
+                            <button onClick={() => setActiveTab(idx)} className={`${idx === activeTab ? "active py-[22px] w-52 rounded-t-lg" : "py-[22px] w-52"}`}>
                                 {tab}
                             </button>
                         </li>
                     ))}
                 </ul>
-                <div>
+                <div className='text-center text-text  font-Raleway text-base bg-primary grid gap-y-9 gap-x-12 grid-cols-6 rounded-lg rounded-tl-none px-[75px] py-[62px]'>
                     {tabsData[activeTab] && tabsData[activeTab].children}
                 </div>
             </div>
