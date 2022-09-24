@@ -3,6 +3,7 @@ import Presentation from '../components/presentation/Pres';
 import SectionEnd from '../components/section-end/Section-end';
 import Projet from '../components/projet/Projet';
 import Tab from "../components/skill/Tab";
+import Contact from '../components/contact/Contact';
 
 const tabContent =
     [
@@ -112,6 +113,7 @@ const Home = () => {
                     )
                 })}
             </Tab>
+            <Contact/>
 
         </div>
     )
