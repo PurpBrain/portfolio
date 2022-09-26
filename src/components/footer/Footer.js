@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="px-[250px] py-[30px] mt-[50px] bg-primary">
+        <footer className="xl:px-[250px] lg:px-[100px] md:px-[50px] py-[30px] mt-[50px] bg-primary">
             <div className="flex justify-between text-text pb-[25px]">
                 <p>© 2022 Léo Doray</p>
                 <a className="flex hover:text-tertiary ease-out duration-300" href="https://github.com/PurpBrain/portfolio">

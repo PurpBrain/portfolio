@@ -22,10 +22,10 @@ const Tab = ({ children, active = 0 }) => {
     
 
     return (
-        <div className="px-[250px] py-[50px]">
+        <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] py-[50px]">
             <div className="flex justify-center text-5xl text-headline font-Brown pt-[100px] pb-[100px]">Maîtrise des langages</div>
             <div>
-                <ul className='flex flex-row'>
+                <ul className='flex flex-col md:flex-row'>
                     {tabsData.map(({ tab }, idx) => (
                         <li key={Math.random()+Date.now()} className="text-headline font-Raleway text-base">
                             <button onClick={() => setActiveTab(idx)} className={`${idx === activeTab ? "active py-[22px] w-52 rounded-t-lg" : "py-[22px] w-52"}`}>

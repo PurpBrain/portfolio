@@ -2,9 +2,9 @@
 
 const Presentation = () => {
     return (
-        <div className="px-[250px] pt-[50px] pb-[110px]">
+        <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] pt-[50px] pb-[110px]">
             <div className="flex justify-center text-5xl text-headline font-Brown pb-[80px]">Qui suis-je ?</div>
-            <div className="flex justify-between">
+            <div className="flex justify-between flex-col md:justify-center lg:flex-row">
                 <div className="text-xl text-text font-Helvetica">
                     <p>
                         Bonjour! je m'appelle Léo Doray, j'ai 18ans, je suis Développeur Web ainsi<br></br> 

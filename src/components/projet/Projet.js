@@ -2,7 +2,7 @@
 
 const Projet = () => {
     return (
-        <div className="px-[250px] pt-[50px] pb-[200px] bg-primary flex-col justify-center">
+        <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] pt-[50px] pb-[200px] bg-primary flex-col justify-center">
             <div className="pt-[100px] flex justify-center text-5xl text-headline font-Brown pb-[80px]">Mes projets</div>
             <div className="grid gap-y-32 justify-center">
                 <div className="grid grid-cols-2">
