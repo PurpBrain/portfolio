@@ -18,3 +18,11 @@ body{
 	position: relative;
 	width: 100%;
 }
+
+a:hover .size{
+    width: var(--size);
+}
+
+a:hover svg {
+    color: #7F5AF0;
+}

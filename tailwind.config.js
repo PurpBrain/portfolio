@@ -17,6 +17,7 @@ module.exports = {
       'black': "#020826",
       'headline':"#FFFFFE",
       'icon':"#FFFFFE",
+      'white':"#FFFFFE",
     },
     fontFamily: {
       Helvetica: ['Helvetica',"sans-serif"],

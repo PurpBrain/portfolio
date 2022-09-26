@@ -9,7 +9,7 @@ const Presentation = () => {
                     <p>
                         Bonjour! je m'appelle Léo Doray, j'ai 18ans, je suis Développeur Web ainsi<br></br> 
                         que Web Designer. Je m'apprête à commencer une formation Concepteur <br></br> 
-                        Designer UI en alternance, qui débute en octobre 2022 sur 1 ans. <br></br>
+                        Designer UI en alternance, qui débute en octobre 2022 sur 1 an. <br></br>
                         
                     </p>
                     <p className="py-[30px]">
@@ -23,7 +23,7 @@ const Presentation = () => {
                     </p>
                 </div>
                 <div className="w-72">
-                    <img className="rounded-full" src={require(`../../assets/image/IMG_20210405_104100_255.jpg`)} alt="Léo-doray" />
+                    <img className="rounded-full" src={require(`../../assets/image/about/IMG_20210405_104100_255.jpg`)} alt="Léo-doray" />
                 </div>
             </div>
         </div>

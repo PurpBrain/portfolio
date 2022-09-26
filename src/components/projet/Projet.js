@@ -32,12 +32,12 @@ const Projet = () => {
                         </div>
                     </div>
                     <div className="drop-shadow-xs">
-                        <img className="sameImg" src={require(`../../assets/image/Gta-5.jpg`)} alt="Projet 1" />
+                        <img className="sameImg" src={require(`../../assets/image/projet/Gta-5.jpg`)} alt="Projet 1" />
                     </div>
                 </div>
                 <div className="grid grid-cols-2">
                     <div className="drop-shadow-xs">
-                        <img className="sameImg" src={require(`../../assets/image/Lune.jpg`)} alt="Projet 1" />
+                        <img className="sameImg" src={require(`../../assets/image/projet/Lune.jpg`)} alt="Projet 1" />
                     </div>
                     <div className="grid gap-y-3 content-center ml-[-100px] z-10 justify-items-end">
                         <div className="text-xs text-tertiary font-Raleway font-medium ">
