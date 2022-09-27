@@ -2,18 +2,18 @@
 
 const Projet = () => {
     return (
-        <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] pt-[50px] pb-[200px] bg-primary flex-col justify-center">
+        <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] pt-[50px] pb-[200px] bg-primary flex-col justify-center">
             <div className="pt-[100px] flex justify-center text-5xl text-headline font-Brown pb-[80px]">Mes projets</div>
             <div className="grid gap-y-32 justify-center">
-                <div className="grid grid-cols-2">
-                    <div className="grid gap-y-3 content-center mr-[-100px] z-10">
+                <div className="bg-projet-1 p-[15px] lg:p-0 grid lg:grid-cols-2 place-items-center rounded-lg lg:bg-none lg:bg-primary">
+                    <div className="bg-primary/75 lg:bg-none grid gap-y-3 content-center lg:mr-[-100px] z-10">
                         <div className="text-xs text-tertiary font-Raleway font-medium">
                             <span className="pr-[5px]">2022</span>
                             <span className="pr-[5px]">-</span>
                             <span>Projet de Formation</span>
                         </div>
                         <a className="text-xl text-headline font-Raleway font-semibold" href="https://jdm.boutique/">Jdm.boutique</a>
-                        <div className="text-base text-text font-Raleway font-regular bg-secondary px-[13px] py-[28px] rounded-lg drop-shadow-xs">
+                        <div className="text-base text-text font-Raleway font-regular lg:bg-secondary lg:px-[13px] py-[28px] rounded-lg lg:drop-shadow-xs">
                             <p>
                                 Projet réalisé durant ma formation de développeur Web & Web Mobile.
                                 On peut y publier des annonces sur automobiles comme un blog, se créer un compte,
@@ -31,11 +31,11 @@ const Projet = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="drop-shadow-xs">
+                    <div className="drop-shadow-xs hidden lg:block">
                         <img className="sameImg" src={require(`../../assets/image/projet/Gta-5.jpg`)} alt="Projet 1" />
                     </div>
                 </div>
-                <div className="grid grid-cols-2">
+                <div className="grid grid-cols-2 place-items-center">
                     <div className="drop-shadow-xs">
                         <img className="sameImg" src={require(`../../assets/image/projet/Lune.jpg`)} alt="Projet 1" />
                     </div>
@@ -48,9 +48,6 @@ const Projet = () => {
                         <a className="text-xl text-headline font-Raleway font-semibold" href="https://jdm.boutique/">Jdm.boutique</a>
                         <div className="text-base text-text font-Raleway font-regular bg-secondary px-[13px] py-[28px] rounded-lg drop-shadow-xs text-right">
                             <p>
-                                Projet réalisé durant ma formation de développeur Web & Web Mobile.
-                                On peut y publier des annonces sur automobiles comme un blog, se créer un compte,
-                                échanger avec les utilisateurs sur les voitures etc.
                                 Projet réalisé durant ma formation de développeur Web & Web Mobile.
                                 On peut y publier des annonces sur automobiles comme un blog, se créer un compte,
                                 échanger avec les utilisateurs sur les voitures etc.

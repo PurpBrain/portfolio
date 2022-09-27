@@ -5,7 +5,7 @@ function Navs() {
     <navbar className="xl:px-[250px] lg:px-[100px] md:px-[50px] z-50 fixed w-full border-b py-[15px] text-base font-Helvetica text-headline bg-secondary flex justify-between">
       <p>Léo Doray</p>
       <div className="flex ">
-        <ul className='flex flex-col md:flex-row'>
+        <ul className='flex flex-row'>
           <li className="mr-[40px]">
             <a href='/'>Projets</a>
           </li>

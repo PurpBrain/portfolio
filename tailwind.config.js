@@ -25,6 +25,9 @@ module.exports = {
       Calibre: ['Calibre',"sans-serif"],
     },
     extend: {
+      backgroundImage: {
+        'projet-1' : "url('/src/assets/image/projet/Gta-5.jpg')",
+      },
       height: {
         '104': "409px"
       },
