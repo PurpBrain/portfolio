@@ -73,7 +73,7 @@ const tabContent =
                 ]
         },
         {
-            "title": "Design",
+            "title": "Logiciel Design",
             "skills":
                 [
                     {
@@ -105,7 +105,7 @@ const Home = () => {
                             {el.skills.map((el, i) => {
                                 return (
                                     <div>
-                                        <img className='pb-[10px]' src={require(`../assets/image/skills/` + el.logo)} alt={el.logo} />
+                                        <img className='pb-[10px] sameLogo' src={require(`../assets/image/skills/` + el.logo)} alt={el.logo} />
                                         <p key={el.name + Date.now()}>{el.name}</p>
                                     </div>
                                 )

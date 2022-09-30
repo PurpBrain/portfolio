@@ -22,19 +22,19 @@ const Tab = ({ children, active = 0 }) => {
     
 
     return (
-        <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] py-[50px]">
+        <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] py-[50px]">
             <div className="flex justify-center text-5xl text-headline font-Brown pt-[100px] pb-[100px]">Maîtrise des langages</div>
             <div>
-                <ul className='flex flex-col md:flex-row'>
+                <ul className='flex flex-row'>
                     {tabsData.map(({ tab }, idx) => (
                         <li key={Math.random()+Date.now()} className="text-headline font-Raleway text-base">
-                            <button onClick={() => setActiveTab(idx)} className={`${idx === activeTab ? "active py-[22px] w-52 rounded-t-lg" : "py-[22px] w-52"}`}>
+                            <button onClick={() => setActiveTab(idx)} className={`${idx === activeTab ? "active py-[22px] px-[22px] sm:px-[44px] rounded-t-lg" : "sm:px-[44px] px-[22px] py-[22px]"}`}>
                                 {tab}
                             </button>
                         </li>
                     ))}
                 </ul>
-                <div className='h-104 text-center text-text font-Raleway text-base bg-primary grid gap-y-9 gap-x-12 grid-cols-6 rounded-lg rounded-tl-none px-[75px] py-[62px] justify-items-center'>
+                <div className='h-104 text-center text-text font-Raleway text-base bg-primary place-items-center grid gap-y-9 gap-x-12 lg:grid-cols-5 rounded-lg rounded-tl-none px-[75px] py-[62px] justify-items-center'>
                     {tabsData[activeTab] && tabsData[activeTab].children}
                 </div>
             </div>
