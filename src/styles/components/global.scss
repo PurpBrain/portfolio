@@ -1,16 +1,10 @@
-@font-face {
-    font-family: 'BrownLight';
-    font-weight: 300;
-    src: url('../../assets/fonts/Brown/BrownLight-Regular.ttf') format("truetype");
-}
-@font-face {
-    font-family: 'Brown';
-    font-weight: 700;
-    src: url('../../assets/fonts/Brown/Brown-Bold.ttf') format("truetype");
-}
 * {
 	margin: 0;
 	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body {
@@ -21,12 +15,4 @@ body {
 
 div {
     display: block;
-}
-
-a:hover .size{
-    width: var(--size);
-}
-
-a:hover svg {
-    color: #7F5AF0;
 }

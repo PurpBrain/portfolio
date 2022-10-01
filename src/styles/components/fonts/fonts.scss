@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'BrownLight';
+    font-weight: 300;
+    src: url('../../../assets/fonts/Brown/BrownLight-Regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'Brown';
+    font-weight: 700;
+    src: url('../../../assets/fonts/Brown/Brown-Bold.ttf') format("truetype");
+}
+
+.font-BrownLight {
+    font-family: 'BrownLight';
+}
+
+.font-Brown {
+    font-family: 'Brown';
+}
