@@ -8,7 +8,7 @@ const Header = () => {
                 <div className="uppercase text-5xl text-headline font-Brown">Léo Doray</div>
                 <div className="text-xl font-BrownLight text-headline">Web Designer / Développeur Web</div>
             </div>
-            <img className="sm:block w-1/2 hidden" src={require(`../../assets/image/svg/Illustration-bureau.svg`).default} alt="Svg bureau" />
+            <img className="sm:block w-1/3 hidden" src={require(`../../assets/image/svg/Illustration-bureau.svg`).default} alt="Svg bureau" />
         </header>
     );
 };

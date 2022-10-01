@@ -3,7 +3,7 @@
 const Presentation = () => {
     return (
         <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] pt-[50px] pb-[110px]">
-            <div className="flex justify-center text-5xl text-headline font-Brown pb-[80px]">Qui suis-je ?</div>
+            <div className="flex justify-center text-5xl text-center text-headline font-Brown pb-[80px]">Qui suis-je ?</div>
             <div className="grid md:grid-cols-2 gap-y-8 grid-row-2 place-items-center">
                 <div className="text-xl text-text font-Helvetica">
                     <p>
@@ -22,7 +22,7 @@ const Presentation = () => {
                         non tristique arcu lobortis.
                     </p>
                 </div>
-                <img className="z-10 xl:w-96 lg:w-72 md:w-72 w-64 rounded-full" src={require(`../../assets/image/about/IMG_20210405_104100_255.jpg`)} alt="Léo-doray" />
+                <img className="z-10 xl:w-3/5 lg:w-72 md:w-72 w-64 rounded-full" src={require(`../../assets/image/about/IMG_20210405_104100_255.jpg`)} alt="Léo-doray" />
             </div>
         </div>
     );

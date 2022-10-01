@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="xl:px-[250px] lg:px-[100px] md:px-[50px] py-[30px] mt-[50px] bg-primary">
-            <div className="flex justify-between text-text pb-[25px]">
-                <p>© 2022 Léo Doray</p>
+        <footer className="xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] py-[30px] mt-[50px] bg-primary">
+            <div className="flex-col flex sm:flex-row sm:justify-between text-text pb-[25px]">
+                <p className="pb-[25px] sm:pb-[0px]">© 2022 Léo Doray</p>
                 <a className="flex hover:text-tertiary ease-out duration-300" href="https://github.com/PurpBrain/portfolio">
                     Repositorie du site Portfolio
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github ml-[13px]">
@@ -12,7 +12,7 @@ const Footer = () => {
                     </svg>
                 </a>
             </div>
-            <div className="text-text text-center flex justify-center">
+            <div className="text-text sm:text-center">
                 <p>Construit par Léo Doray<br></br>
                     Merci d’avoir lu jusqu’ici, j’espère que le site vous a plu</p>
             </div>

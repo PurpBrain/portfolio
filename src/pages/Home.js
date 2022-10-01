@@ -104,8 +104,8 @@ const Home = () => {
                         <Tab.TabPane key={`Tab-${i}`} tab={el.title}>
                             {el.skills.map((el, i) => {
                                 return (
-                                    <div>
-                                        <img className='pb-[10px] sameLogo' src={require(`../assets/image/skills/` + el.logo)} alt={el.logo} />
+                                    <div className='w-22'>
+                                        <img className='pb-[10px]' src={require(`../assets/image/skills/` + el.logo)} alt={el.logo} />
                                         <p key={el.name + Date.now()}>{el.name}</p>
                                     </div>
                                 )

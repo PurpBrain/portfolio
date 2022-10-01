@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] py-[50px] relative">
-            <div className="flex justify-center text-5xl text-headline font-Brown pb-[100px]">Comment me contacter ?</div>
-            <div className="flex gap-x-5 justify-center">
+        <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] py-[50px] relative">
+            <div className="flex justify-center text-5xl text-center text-headline font-Brown pb-[100px]">Comment me contacter ?</div>
+            <div className="flex gap-x-2 sm:gap-x-5 justify-center">
                 <a style={{ "--size": "83.61px" }} className="flex bg-primary gap-x-2.5 py-[10px] pl-[10px] hover:pr-[10px] rounded-lg items-center text-headline" href="https://www.linkedin.com/in/l%C3%A9o-doray-529506203/">
                     <svg width="45" height="45" viewBox="0 0 46 45" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-linkedin">
                         <path d="M30.9961 15C33.9798 15 36.8413 16.1853 38.951 18.295C41.0608 20.4048 42.2461 23.2663 42.2461 26.25V39.375H34.7461V26.25C34.7461 25.2554 34.351 24.3016 33.6477 23.5984C32.9445 22.8951 31.9907 22.5 30.9961 22.5C30.0015 22.5 29.0477 22.8951 28.3444 23.5984C27.6412 24.3016 27.2461 25.2554 27.2461 26.25V39.375H19.7461V26.25C19.7461 23.2663 20.9314 20.4048 23.0411 18.295C25.1509 16.1853 28.0124 15 30.9961 15V15Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

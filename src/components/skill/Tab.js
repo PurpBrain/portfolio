@@ -23,7 +23,7 @@ const Tab = ({ children, active = 0 }) => {
 
     return (
         <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] py-[50px]">
-            <div className="flex justify-center text-5xl text-headline font-Brown pt-[100px] pb-[100px]">Maîtrise des langages</div>
+            <div className="flex justify-center text-5xl text-center text-headline font-Brown pt-[100px] pb-[100px]">Maîtrise des langages</div>
             <div>
                 <ul className='flex flex-row'>
                     {tabsData.map(({ tab }, idx) => (
@@ -34,7 +34,7 @@ const Tab = ({ children, active = 0 }) => {
                         </li>
                     ))}
                 </ul>
-                <div className='h-104 text-center text-text font-Raleway text-base bg-primary place-items-center grid gap-y-9 gap-x-12 lg:grid-cols-5 rounded-lg rounded-tl-none px-[75px] py-[62px] justify-items-center'>
+                <div className='text-center text-text font-Raleway text-base bg-primary place-items-center grid gap-y-9 gap-x-12 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 rounded-lg rounded-tl-none px-[20px] sm:px-[75px] py-[62px] justify-items-center'>
                     {tabsData[activeTab] && tabsData[activeTab].children}
                 </div>
             </div>

@@ -3,7 +3,7 @@
 const Projet = () => {
     return (
         <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] pt-[50px] pb-[200px] bg-primary flex-col justify-center">
-            <div className="pt-[100px] flex justify-center text-5xl text-headline font-Brown pb-[80px]">Mes projets</div>
+            <div className="pt-[100px] flex justify-center text-5xl text-center text-headline font-Brown pb-[80px]">Mes projets</div>
             <div className="grid gap-y-32 justify-center">
                 <div className="bg-projet-1 bg-center bg-cover grid lg:grid-cols-2 place-items-center lg:bg-none">
                     <div className="bg-primary/75 lg:bg-primary/0 p-[15px] grid gap-y-3 content-center lg:mr-[-100px] z-10">
