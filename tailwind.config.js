@@ -26,8 +26,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'projet-1' : "url('/src/assets/image/projet/Gta-5.jpg')",
-        "projet-2" : "url('/src/assets/image/projet/Lune.jpg')",
+        'projet-1' : "url('/src/assets/image/projet/portfolio.png')",
+        "projet-2" : "url('/src/assets/image/projet/jdm.png')",
       },
       height: {
         '104': "409px"

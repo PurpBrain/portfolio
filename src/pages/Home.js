@@ -93,7 +93,7 @@ const Home = () => {
     return (
 
         <div className="bg-secondary">
-            <Header />
+            <Header/>
             <Presentation />
             <SectionEnd />
             <Projet />

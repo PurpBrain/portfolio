@@ -7,22 +7,21 @@ const Presentation = () => {
             <div className="grid md:grid-cols-2 gap-y-8 grid-row-2 place-items-center">
                 <div className="text-xl text-text font-Helvetica">
                     <p>
-                        Bonjour! je m'appelle Léo Doray, j'ai 18ans, je suis Développeur Web ainsi<br></br>
-                        que Web Designer. Je m'apprête à commencer une formation Concepteur <br></br>
-                        Designer UI, qui débute en octobre 2022 sur 6 mois. <br></br>
-
+                        Bonjour ! Je suis Léo Doray, j'ai actuellement 18ans et je suis Développeur Web.
+                        J'aimerais commencer une formation de Concepteur Designer UI,<br></br>
+                        celle-ci débute en octobre 2022 et se termine en avril 2023. Cependant,<br></br>
+                        il me faut encore trouver une alternance en Design afin de pouvoir l'atteindre.<br></br>
                     </p>
                     <p className="py-[30px]">
-                        J'ai obtenu mon diplôme de Devéloppeur Web en mai 2022.<br></br>
-                        Durant cette formation je me suis rendu compte que le Front End m'intéressait d'avantage.<br></br>
-                        J'ai décidé de me lancer dans l'apprentissage du design.
+                        En mai 2022, j'ai obtenu mon diplôme de développeur web après avoir fait une formation chez Arinfo.<br></br>
+                        Durant cette formation, j'ai pu découvrir de nombreux langages et me suis rendu compte que le Front End m'intéressait d'avantage,<br></br>
+                        j'ai donc décidé de me lancer dans l'apprentissage du design.
                     </p>
                     <p>
-                        Ut non ipsum tellus. Proin vel arcu sed orci varius rutrum. Morbi convallis odio ut ex efficitur,<br></br>
-                        non tristique arcu lobortis.
+                        Je vous laisse, à travers ce portfolio, apprendre à me connaître et découvrir mes différents projets ! 
                     </p>
                 </div>
-                <img className="z-10 xl:w-3/5 lg:w-72 md:w-72 w-64 rounded-full" src={require(`../../assets/image/about/IMG_20210405_104100_255.jpg`)} alt="Léo-doray" />
+                <img className="z-10 xl:w-3/5 lg:w-72 md:w-72 w-64 rounded-full drop-shadow-xs" src={require(`../../assets/image/about/IMG_20210405_104100_255.jpg`)} alt="Léo-doray" />
             </div>
         </div>
     );

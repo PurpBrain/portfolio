@@ -34,7 +34,7 @@ const Tab = ({ children, active = 0 }) => {
                         </li>
                     ))}
                 </ul>
-                <div className='text-center text-text font-Raleway text-base bg-primary place-items-center grid gap-y-9 gap-x-12 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 rounded-lg rounded-tl-none px-[20px] sm:px-[75px] py-[62px] justify-items-center'>
+                <div className='text-center text-text font-Raleway text-base bg-primary place-items-center grid gap-y-9 gap-x-12 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 rounded-lg rounded-tl-none rounded-tr-none px-[20px] sm:px-[75px] py-[62px] justify-items-center'>
                     {tabsData[activeTab] && tabsData[activeTab].children}
                 </div>
             </div>

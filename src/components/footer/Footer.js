@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className="text-text sm:text-center">
                 <p>Construit par Léo Doray<br></br>
-                    Merci d’avoir lu jusqu’ici, j’espère que le site vous a plu</p>
+                    Je vous remercie d’avoir lu jusqu’ici et espère que le site vous a plu</p>
             </div>
         </footer>
     );
