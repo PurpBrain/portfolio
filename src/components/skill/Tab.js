@@ -23,8 +23,8 @@ const Tab = ({ children, active = 0 }) => {
 
     return (
         <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] py-[50px]">
-            <div className="flex justify-center text-5xl text-center text-headline font-Brown pt-[100px] pb-[100px]">Maîtrise des langages</div>
-            <div>
+            <div data-aos="fade-up" data-aos-duration="1200" className="flex justify-center text-5xl text-center text-headline font-Brown pt-[100px] pb-[100px]">Maîtrise des langages</div>
+            <div data-aos="fade-up" data-aos-duration="1200">
                 <ul className='flex flex-row'>
                     {tabsData.map(({ tab }, idx) => (
                         <li key={Math.random()+Date.now()} className="text-headline font-Raleway text-base">

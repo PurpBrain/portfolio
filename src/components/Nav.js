@@ -3,23 +3,24 @@ import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Projets', href: '#', current: false },
-  { name: 'Langages', href: '#', current: false },
-  { name: 'À-Propos', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'À-Propos', top: '460', current: false },
+  { name: 'Projets', top: '1250', current: true },
+  { name: 'Langages', top: '2700', current: false },
+  { name: 'Contact', top: '3200', current: false },
 ]
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-function Navs() {
+const Navs = () => {
+
   return (
     <Disclosure as="nav" className="bg-secondary">
       {({ open }) => (
         <>
           <div className="border-b bg-secondary w-full z-30 fixed xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] text-base font-Helvetica text-headline">
             <div className="flex h-16 items-center justify-between">
-              <p>Léo Doray</p>
+              <a href='/'>Léo Doray</a>
               <div className="sm:hidden sm:w-0">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="flex rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -34,17 +35,23 @@ function Navs() {
               <div className="hidden sm:block">
                 <div className="flex space-x-10">
                   {navigation.map((item) => (
-                    <a
+                    <button
                       key={item.name}
-                      href={item.href}
+                      onClick={() =>
+                        window.scrollTo({
+                          left: 0,
+                          top: `${item.top}`,
+                          behavior: "smooth",
+                        })
+                      }
                       className={classNames(
                         item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                        ' py-2 rounded-md text-sm font-medium'
+                        'hover:text-white/75 py-2 rounded-md text-sm font-medium'
                       )}
                       aria-current={item.current ? 'page' : undefined}
                     >
                       {item.name}
-                    </a>
+                    </button>
                   ))}
                 </div>
               </div>
