@@ -2,11 +2,17 @@ import React from 'react';
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
-const navigation = [
+const navigationDeskTop = [
   { name: 'À-Propos', top: '460', current: false },
   { name: 'Projets', top: '1250', current: true },
   { name: 'Langages', top: '2700', current: false },
   { name: 'Contact', top: '3200', current: false },
+]
+const navigationMobile = [
+  { name: 'À-Propos', top: '300', current: false },
+  { name: 'Projets', top: '1600', current: true },
+  { name: 'Langages', top: '3000', current: false },
+  { name: 'Contact', top: '4000', current: false },
 ]
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -34,7 +40,7 @@ const Navs = () => {
               </div>
               <div className="hidden sm:block">
                 <div className="flex space-x-10">
-                  {navigation.map((item) => (
+                  {navigationDeskTop.map((item) => (
                     <button
                       key={item.name}
                       onClick={() =>
@@ -60,11 +66,17 @@ const Navs = () => {
 
           <Disclosure.Panel className="sm:hidden text-base font-Helvetica text-headline">
             <div className="fixed z-20 text-end pt-[65px] space-y-1 px-2 w-full border-b bg-secondary">
-              {navigation.map((item) => (
+              {navigationMobile.map((item) => (
                 <Disclosure.Button
                   key={item.name}
                   as="a"
-                  href={item.href}
+                  onClick={() =>
+                    window.scrollTo({
+                      left: 0,
+                      top: `${item.top}`,
+                      behavior: "smooth",
+                    })
+                  }
                   className={classNames(
                     item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                     'block px-3 py-2 rounded-md text-base font-medium'

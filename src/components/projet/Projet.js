@@ -14,7 +14,7 @@ const Projet = () => {
                             <span className="pr-[5px]">-</span>
                             <span>Projet Portfolio</span>
                         </div>
-                        <a className="text-xl hover:text-headline/75 text-headline font-Raleway font-semibold" href="https://jdm.boutique/">Portfolio</a>
+                        <a className="text-xl hover:text-headline/75 text-headline font-Raleway font-semibold" href="/">Portfolio</a>
                         <div className="text-base text-text font-Raleway font-regular lg:bg-secondary lg:px-[13px] py-[28px] rounded-lg lg:drop-shadow-xs">
                             <p>
                                 J'ai décidé de me lancer dans un projet indépendant qui n'est autre qu'un portfolio en ligne. Selon moi, un portfolio en ligne est un moyen de montrer mes compétences en les appliquants. Il est également facile d'utilisation pour un potentiel employeur, etc.

@@ -13,11 +13,12 @@ module.exports = {
       'primary': '#16161A',
       'secondary': '#242629',
       'tertiary': "#7F5AF0",
-      'text': '#94A1B2',
+      'text': '#9FADBF',
       'black': "#020826",
       'headline':"#FFFFFE",
       'icon':"#FFFFFE",
       'white':"#FFFFFE",
+      "blue":"#343466",
     },
     fontFamily: {
       Helvetica: ['Helvetica',"sans-serif"],
