@@ -2,6 +2,7 @@ import Header from '../components/header/Header-home';
 import Presentation from '../components/presentation/Pres';
 import SectionEnd from '../components/section-end/Section-end';
 import Projet from '../components/projet/Projet';
+import Model from '../components/model/Model';
 import Tab from "../components/skill/Tab";
 import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
@@ -98,6 +99,7 @@ const Home = () => {
             <SectionEnd />
             <Projet />
             <SectionEnd />
+            <Model />
             <Tab key={Math.random() + Date.now()}>
                 {tabContent.map((el, i) => {
                     return (

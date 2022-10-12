@@ -21,7 +21,7 @@ const Presentation = () => {
                         Je vous laisse, à travers ce portfolio, apprendre à me connaître et découvrir mes différents projets ! 
                     </p>
                 </div>
-                <img data-aos="zoom-in" data-aos-duration="1300" className="z-10 xl:w-3/5 lg:w-72 md:w-72 w-64 rounded-full drop-shadow-xs" src={require(`../../assets/image/about/IMG_20210405_104100_255.jpg`)} alt="Léo-doray" />
+                <img data-aos="zoom-in" data-aos-duration="1300" className="z-10 xl:w-3/5 lg:w-72 md:w-72 w-64 rounded-full drop-shadow-xs" src={require(`../../assets/image/about/moi.jpg`)} alt="Léo-doray" />
             </div>
         </div>
     );

@@ -5,14 +5,14 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigationDeskTop = [
   { name: 'À-Propos', top: '460', current: false },
   { name: 'Projets', top: '1250', current: true },
-  { name: 'Langages', top: '2700', current: false },
-  { name: 'Contact', top: '3200', current: false },
+  { name: 'Langages', top: '3500', current: false },
+  { name: 'Contact', top: '4000', current: false },
 ]
 const navigationMobile = [
   { name: 'À-Propos', top: '300', current: false },
   { name: 'Projets', top: '1600', current: true },
-  { name: 'Langages', top: '3000', current: false },
-  { name: 'Contact', top: '4000', current: false },
+  { name: 'Langages', top: '4200', current: false },
+  { name: 'Contact', top: '7000', current: false },
 ]
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -26,7 +26,7 @@ const Navs = () => {
         <>
           <div className="border-b bg-secondary w-full z-30 fixed xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] text-base font-Helvetica text-headline">
             <div className="flex h-16 items-center justify-between">
-              <a href='/'>Léo Doray</a>
+              <a href='/' className='hover:text-white/75 ease-out duration-300'>Léo Doray</a>
               <div className="sm:hidden sm:w-0">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="flex rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -52,7 +52,7 @@ const Navs = () => {
                       }
                       className={classNames(
                         item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                        'hover:text-white/75 py-2 rounded-md text-sm font-medium'
+                        'hover:text-white/75 ease-out duration-300 py-2 rounded-md text-sm font-medium'
                       )}
                       aria-current={item.current ? 'page' : undefined}
                     >
