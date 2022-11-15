@@ -2,7 +2,7 @@ import React from "react";
 
 const Model = () => {
     return (
-        <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] py-[50px] bg-secondary flex-col justify-center">
+        <div className="container px-5 py-[50px] bg-secondary flex-col justify-center">
             <h1 data-aos="fade-up" data-aos-duration="1200" className="pt-[50px] flex justify-center text-5xl text-center text-headline font-Brown pb-[80px]">Quelques maquettes</h1>
             <div className="flex justify-center" data-aos="fade-left" data-aos-duration="1200">
                 <div className="space-y-5">

@@ -2,14 +2,14 @@
 
 const Presentation = () => {
     return (
-        <div className="xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] pt-[50px] pb-[110px]">
+        <div className="container px-5 pt-[50px] pb-[110px]">
             <div data-aos="fade-up" data-aos-duration="1200" className="flex justify-center text-5xl text-center text-headline font-Brown pb-[80px]">Qui suis-je ?</div>
-            <div className="grid md:grid-cols-2 gap-y-8 grid-row-2 place-items-center">
+            <div className="grid md:grid-cols-2 gap-y-8 grid-row-2 md:justify-items-end justify-items-center items-center">
                 <div className="text-xl text-text font-Helvetica">
                     <p data-aos="fade-up" data-aos-duration="1000">
                         Bonjour ! Je suis Léo Doray, j'ai actuellement 18ans et je suis Développeur Web.
-                        J'aimerais commencer une formation de <a className="text-tertiary decoration-0 hover:underline" href="https://arinfo.fr/formations/metiers-du-web/concepteur-designer-ui-infographie-numerique-photoshop-illustrator-cms-wordpress">Concepteur Designer UI</a>,<br></br>
-                        celle-ci débute en octobre 2022 et se termine en avril 2023. Cependant,<br></br>
+                        J'aimerais commencer une formation de <a className="text-tertiary decoration-0 hover:underline" href="https://arinfo.fr/formations/metiers-du-web/concepteur-designer-ui-infographie-numerique-photoshop-illustrator-cms-wordpress">Concepteur Designer UI</a>,
+                        celle-ci débute en octobre 2022 et se termine en avril 2023. Cependant,
                         il me faut encore trouver une alternance en Design afin de pouvoir l'atteindre.<br></br>
                     </p>
                     <p data-aos="fade-up" data-aos-duration="1300" className="py-[30px]">

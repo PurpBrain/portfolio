@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    container: {
+      center: true,
+    },
     fontSize: {
       'xs': '.75rem',
       'base': '1rem',
@@ -13,7 +16,7 @@ module.exports = {
       'primary': '#16161A',
       'secondary': '#242629',
       'tertiary': "#7F5AF0",
-      'text': '#9FADBF',
+      'text': '#FFFFFE',
       'black': "#020826",
       'headline':"#FFFFFE",
       'icon':"#FFFFFE",
@@ -27,6 +30,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
+        'fond' : "url('/src/assets/image/header/FOND.png')",
+        'header' : "url('/src/assets/image/header/portfolio_v2.jpg')",
         'projet-1' : "url('/src/assets/image/projet/portfolio.png')",
         "projet-2" : "url('/src/assets/image/projet/jdm.png')",
       },

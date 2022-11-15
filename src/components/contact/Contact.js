@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div id="contact" className="xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] py-[50px] relative">
+        <div id="contact" className="container px-5 py-[50px] relative">
             <div data-aos="fade-up" data-aos-duration="1200" className="flex justify-center text-5xl text-center text-headline font-Brown pb-[100px]">Comment me contacter ?</div>
             <div className="flex gap-x-2 sm:gap-x-5 justify-center">
                 <a data-aos="fade-left" data-aos-duration="1000" target="_blank" rel="noreferrer" style={{ "--size": "83.61px" }} className="flex bg-primary gap-x-2.5 py-[10px] pl-[10px] hover:pr-[10px] rounded-lg items-center text-headline" href="https://www.linkedin.com/in/l%C3%A9o-d-529506203/">

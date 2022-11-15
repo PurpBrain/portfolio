@@ -21,11 +21,11 @@ function classNames(...classes) {
 const Navs = () => {
 
   return (
-    <Disclosure as="nav" className="bg-secondary">
+    <Disclosure as="nav" className="bg-secondary ">
       {({ open }) => (
         <>
-          <div className="border-b bg-secondary w-full z-30 fixed xl:px-[250px] lg:px-[100px] md:px-[50px] px-[20px] text-base font-Helvetica text-headline">
-            <div className="flex h-16 items-center justify-between">
+          <div className="border-b bg-secondary w-full z-30 fixed text-base font-Helvetica text-headline">
+            <div className="flex h-16 items-center justify-between max-w-screen-2xl mx-auto px-5">
               <a href='/' className='hover:text-white/75 ease-out duration-300'>Léo Doray</a>
               <div className="sm:hidden sm:w-0">
                 {/* Mobile menu button*/}
@@ -64,7 +64,7 @@ const Navs = () => {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden text-base font-Helvetica text-headline">
+          <Disclosure.Panel className="sm:hidden text-base font-Helvetica text-headline ">
             <div className="fixed z-20 text-end pt-[65px] space-y-1 px-2 w-full border-b bg-secondary">
               {navigationMobile.map((item) => (
                 <Disclosure.Button
