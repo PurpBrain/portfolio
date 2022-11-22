@@ -33,7 +33,7 @@ module.exports = {
         'fond' : "url('/src/assets/image/header/FOND.png')",
         'header' : "url('/src/assets/image/header/portfolio_v2.jpg')",
         'projet-1' : "url('/src/assets/image/projet/portfolio.png')",
-        "projet-2" : "url('/src/assets/image/projet/jdm.png')",
+        "projet-2" : "url('/src/assets/image/projet/jdm-flou-noir.png')",
       },
       height: {
         '104': "409px"

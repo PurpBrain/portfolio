@@ -5,11 +5,11 @@ const Projet = () => {
 
     return (
         <div className='bg-primary'>
-            <div className="container px-5 pt-[50px] pb-[200px]  flex-col justify-center">
+            <div className="container px-5 pt-[50px] pb-[200px] flex-col justify-center">
                 <div data-aos="fade-up" data-aos-duration="1200" className="pt-[100px] flex justify-center text-5xl text-center text-headline font-Brown pb-[80px]">Mes projets</div>
                 <div className="grid gap-y-32 justify-center">
-                    <div data-aos="fade-up" data-aos-duration="1200" className="bg-projet-1 bg-center bg-cover grid lg:grid-cols-2 place-items-center lg:bg-none">
-                        <div className="bg-primary/75 lg:bg-primary/0 p-[15px] grid gap-y-3 content-center lg:mr-[-100px] z-10">
+                    <div data-aos="fade-up" data-aos-duration="1200" className="bg-projet-1 rounded-xl bg-center bg-cover grid lg:grid-cols-2 place-items-center lg:bg-none">
+                        <div className="p-[15px] lg:pl-[0px] grid gap-y-3 content-center lg:mr-[-100px] z-10">
                             <div className="text-xs text-tertiary font-Raleway font-medium">
                                 <span className="pr-[5px]">2022</span>
                                 <span className="pr-[5px]">-</span>
@@ -36,13 +36,13 @@ const Projet = () => {
                             </a>
                         </div>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="1200" className="bg-projet-2 bg-center bg-cover grid lg:grid-cols-2 place-items-center lg:bg-none">
+                    <div data-aos="fade-up" data-aos-duration="1200" className="bg-projet-2 rounded-xl bg-center bg-cover grid lg:grid-cols-2 place-items-center lg:bg-none">
                         <div className="drop-shadow-xs hidden lg:block">
                             <a href='https://jdm.boutique/' target="_blank" rel="noreferrer">
                                 <video className="sameImg" src={require(`../../assets/image/projet/jdm.mp4`)} autoPlay loop muted ></video>
                             </a>
                         </div>
-                        <div className="bg-primary/75 lg:bg-primary/0 lg:text-right p-[15px] grid gap-y-3 content-center lg:ml-[-100px] z-10">
+                        <div className="lg:text-right p-[15px] lg:pr-[0px] grid gap-y-3 content-center lg:ml-[-100px] z-10">
                             <div className="text-xs text-tertiary font-Raleway font-medium">
                                 <span className="pr-[5px]">2022</span>
                                 <span className="pr-[5px]">-</span>
@@ -53,7 +53,7 @@ const Projet = () => {
                                 <p>
                                     Durant ma formation, j'ai dû suivre un projet : j'ai choisi de créer Jdm.Boutique.
                                     J'ai eu l'idée d'un site de vente de véhicules entre particuliers.
-                                    On peut donc créer un compte, poster des annonces, des commentaires et contacter un adminstateur.
+                                    On peut donc créer un compte, poster des annonces, des commentaires et contacter un administateur.
                                 </p>
                             </div>
                             <div className="text-tertiary">
