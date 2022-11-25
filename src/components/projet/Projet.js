@@ -51,8 +51,8 @@ const Projet = () => {
                             <a className="text-xl text-headline hover:text-headline/75 ease-out duration-300 font-Raleway font-semibold" target="_blank" rel="noreferrer" href="https://jdm.boutique/">Jdm.boutique</a>
                             <div className="text-base text-text font-Raleway font-regular lg:bg-secondary lg:px-[13px] py-[28px] rounded-lg lg:drop-shadow-xs">
                                 <p>
-                                    Durant ma formation, j'ai dû suivre un projet : j'ai choisi de créer Jdm.Boutique.
-                                    J'ai eu l'idée d'un site de vente de véhicules entre particuliers.
+                                    Durant la formation, j'ai dû suivre un projet et j'ai choisi de créer Jdm.Boutique.
+                                    L'idée m'est venue d'un site de vente de véhicules entre particuliers.
                                     On peut donc créer un compte, poster des annonces, des commentaires et contacter un administateur.
                                 </p>
                             </div>
