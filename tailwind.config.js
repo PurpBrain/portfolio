@@ -34,6 +34,7 @@ module.exports = {
         'header' : "url('/src/assets/image/header/portfolio_v2.jpg')",
         'projet-1' : "url('/src/assets/image/projet/portfolio.png')",
         "projet-2" : "url('/src/assets/image/projet/jdm-flou-noir.png')",
+        "projet-3" : "url('/src/assets/image/projet/InitialDeal.jpg')",
       },
       height: {
         '104': "409px"

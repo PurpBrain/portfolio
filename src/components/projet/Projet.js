@@ -8,6 +8,32 @@ const Projet = () => {
             <div className="container px-5 pt-[50px] pb-[200px] flex-col justify-center">
                 <div data-aos="fade-up" data-aos-duration="1200" className="pt-[100px] flex justify-center text-5xl text-center text-headline font-Brown pb-[80px]">Mes projets</div>
                 <div className="grid gap-y-32 justify-center">
+                <div data-aos="fade-up" data-aos-duration="1200" className="bg-projet-3 rounded-xl bg-center bg-cover grid lg:grid-cols-2 place-items-center lg:bg-none">
+                        <div className="drop-shadow-xs hidden lg:block">
+                            <a href='https://www.behance.net/gallery/158861771/Initial-Deal-Brand-Identity' target="_blank" rel="noreferrer">
+                                <video className="sameImg" src={require(`../../assets/image/projet/InitialDeal_video.mp4`)} autoPlay loop muted ></video>
+                            </a>
+                        </div>
+                        <div className="lg:text-right p-[15px] lg:pr-[0px] grid gap-y-3 content-center lg:ml-[-100px] z-10">
+                            <div className="text-xs text-tertiary font-Raleway font-medium">
+                                <span className="pr-[5px]">2022</span>
+                                <span className="pr-[5px]">-</span>
+                                <span>Projet d'identité visuelle</span>
+                            </div>
+                            <a className="text-xl text-headline hover:text-headline/75 ease-out duration-300 font-Raleway font-semibold" target="_blank" rel="noreferrer" href="https://www.behance.net/gallery/158861771/Initial-Deal-Brand-Identity">InitialDeal*</a>
+                            <div className="text-base text-text font-Raleway font-regular lg:bg-secondary lg:px-[13px] py-[28px] rounded-lg lg:drop-shadow-xs">
+                                <p>
+                                    Durant la formation, j'ai réaliser Jdm.Boutique un site sans réel identité visulle.
+                                    Après une stratégie établie et un changement de nom plus tard.
+                                    J'ai conçu le logo ainsi qu'une belle présentation qui va avec !
+                                </p>
+                            </div>
+                            <div className="text-tertiary">
+                                <a target="_blank" rel="noreferrer" className="pr-[20px] hover:text-tertiary/75 ease-out duration-300" href="https://www.adobe.com/fr/products/illustrator.html">Illustrator</a>
+                                <a target="_blank" rel="noreferrer" className="hover:text-tertiary/75 ease-out duration-300" href="https://www.adobe.com/fr/products/photoshop.html">PhotoShop</a>
+                            </div>
+                        </div>
+                    </div>
                     <div data-aos="fade-up" data-aos-duration="1200" className="bg-projet-1 rounded-xl bg-center bg-cover grid lg:grid-cols-2 place-items-center lg:bg-none">
                         <div className="p-[15px] lg:pl-[0px] grid gap-y-3 content-center lg:mr-[-100px] z-10">
                             <div className="text-xs text-tertiary font-Raleway font-medium">
