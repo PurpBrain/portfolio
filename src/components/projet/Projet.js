@@ -8,7 +8,32 @@ const Projet = () => {
             <div className="container px-5 pt-[50px] pb-[200px] flex-col justify-center">
                 <div data-aos="fade-up" data-aos-duration="1200" className="pt-[100px] flex justify-center text-5xl text-center text-headline font-Brown pb-[80px]">Mes projets</div>
                 <div className="grid gap-y-32 justify-center">
-                <div data-aos="fade-up" data-aos-duration="1200" className="bg-projet-3 rounded-xl bg-center bg-cover grid lg:grid-cols-2 place-items-center lg:bg-none">
+                    <div data-aos="fade-up" data-aos-duration="1200" className="bg-projet-bulls rounded-xl bg-center bg-cover grid lg:grid-cols-2 place-items-center lg:bg-none">
+                        <div className="p-[15px] lg:pl-[0px] grid gap-y-3 content-center lg:mr-[-100px] z-10">
+                            <div className="text-xs text-tertiary font-Raleway font-medium">
+                                <span className="pr-[5px]">2023</span>
+                                <span className="pr-[5px]">-</span>
+                                <span>Projet d'identité visuelle</span>
+                            </div>
+                            <a target="_blank" rel="noreferrer" className="text-xl hover:text-headline/75 ease-out duration-300 text-headline font-Raleway font-semibold" href="https://www.behance.net/gallery/161965861/Bulls-Brand-Identity">Bulls</a>
+                            <div className="text-base text-text font-Raleway font-regular lg:bg-secondary lg:px-[13px] py-[28px] rounded-lg lg:drop-shadow-xs">
+                                <p>
+                                    Durant ma courte période en formation, fin 2022, j'avais lancé le projet fictif Bulls,
+                                    un préparateur automobile spécialiste du blindage pour des clients tels que les chefs d'état ou les grandes stars etc.
+                                    Pour ça, il me fallait un logo approprié et voici sa présentation sur Behance.
+                                </p>
+                            </div>
+                            <div className="text-tertiary">
+                                <a target="_blank" rel="noreferrer" className="hover:text-tertiary/75 pr-[20px] ease-out duration-300" href="https://www.adobe.com/fr/products/illustrator.html">Illustrator</a>
+                            </div>
+                        </div>
+                        <div className="drop-shadow-xs hidden lg:block">
+                            <a target="_blank" rel="noreferrer" href="https://www.behance.net/gallery/161965861/Bulls-Brand-Identity">
+                                <img className="sameImg" src={require(`../../assets/image/projet/bulls.jpg`)} alt="Bulls"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1200" className="bg-projet-3 rounded-xl bg-center bg-cover grid lg:grid-cols-2 place-items-center lg:bg-none">
                         <div className="drop-shadow-xs hidden lg:block">
                             <a href='https://www.behance.net/gallery/158861771/Initial-Deal-Brand-Identity' target="_blank" rel="noreferrer">
                                 <video className="sameImg" src={require(`../../assets/image/projet/InitialDeal_video.mp4`)} autoPlay loop muted ></video>
